@@ -2,7 +2,7 @@
 INSERT INTO demo_table (
     special
 ) VALUES (
-    @special::MyEnum[]
+    @special
 );
 
 -- name: GetAll :many

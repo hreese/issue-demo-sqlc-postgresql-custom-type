@@ -37,7 +37,7 @@ const insertNewEntry = `-- name: InsertNewEntry :exec
 INSERT INTO demo_table (
     special
 ) VALUES (
-    $1::MyEnum[]
+    $1
 )
 `
 
