@@ -30,7 +30,7 @@ func main() {
 		}
 		// register custom types
 		conn.TypeMap().RegisterTypes(types)
-		log.Printf("Registered %s types", strings.Join(typeNames, ", "))
+		log.Printf("Registered custom types %s", strings.Join(typeNames, ", "))
 
 		// https://github.com/jackc/pgx/issues/953 ?
 		//conn.TypeMap().RegisterDefaultPgType(database.Myenum("one"), `MyEnum`)
